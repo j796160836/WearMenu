@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<color name="wl_blue">#2878ff</color>
+	<color name="wl_gray">#c1c1c1</color>
+
+	<color name="colorPrimary">#4e6cef</color>
+	<color name="colorPrimaryDark">#2a36b1</color>
+
+	<color name="title_text">#999999</color>
+	<color name="item_text">#434343</color>
+</resources>

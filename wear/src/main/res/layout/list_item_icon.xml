@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.johnnyworks.wearmenu.view.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+	android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <android.support.wearable.view.CircledImageView
+        android:id="@+id/icon_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="16dp"
+		app:circle_color="@color/colorPrimary"
+		app:circle_radius="25dp"
+		app:circle_radius_pressed="23dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="-4sp"
+		android:maxLines="2"
+        android:textColor="@color/item_text"
+        android:textSize="16sp"/>
+
+</com.johnnyworks.wearmenu.view.WearableListItemLayout>

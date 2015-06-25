@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.johnnyworks.wearmenu.view.WearableListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical">
+
+    <com.johnnyworks.wearmenu.view.CircleMaskImageView
+        android:id="@+id/icon_iv"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="12dp"
+        android:src="@drawable/cafe"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="16dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="-4sp"
+		android:maxLines="2"
+        android:textColor="@color/item_text"
+        android:textSize="16sp"/>
+</com.johnnyworks.wearmenu.view.WearableListItemLayout>
